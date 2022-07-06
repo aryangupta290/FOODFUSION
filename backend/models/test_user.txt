@@ -1,0 +1,41 @@
+{
+	"Name" : "Siddh",
+	"Email" : "C@gmail.com",
+	"ContactNumber" : "24274",
+	"Age" : 12,
+	"BatchName" : "UG1",
+	"password" : "ahskj"
+}
+//
+{
+	"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZWRkNDFhNzFkNjExOTY0N2FmZDEyYiIsInR5cGUiOiJCdXllciIsImlhdCI6MTY0Mjk3NjMzM30.Av2fKjRIVvpzqmJFZX3ZD88APe5jdvrlkkTlbjI8_3g",
+	"user": {
+		"Wallet": 0,
+		"Favourite_Food": [],
+		"_id": "61edd41a71d6119647afd12b",
+		"Name": "Siddh",
+		"Email": "C@gmail.com",
+		"ContactNumber": "24274",
+		"Age": 12,
+		"BatchName": "UG1",
+		"password": 50400629,
+		"__v": 0
+	}
+}
+
+
+
+//
+
+{
+	"Name" : "Idlei",
+	"Price" : 20,
+	"VendorEmail" : "24274",
+	"Type" : "Veg"
+}
+
+// login checking
+{
+	"Email" : "Aasd@gmail.com",
+	"password" : "sjhdgja"
+}

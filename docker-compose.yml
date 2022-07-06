@@ -1,0 +1,22 @@
+version: "3.5"
+
+services:
+  backend:
+    build:
+      context: "./backend"
+      dockerfile: "Dockerfile"
+  frontend:
+    build:
+      context: "./frontend"
+      dockerfile: Dockerfile
+    depends_on:
+      - backend
+  nginx:
+    image: "nginx:latest"
+    ports:
+      - "80:80"
+    volumes:
+      - "./nginx:/etc/nginx/conf.d:ro"
+    depends_on:
+      - backend
+      - frontend
